@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		408159F1265347B5001C1EAE /* BabinikuiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408159F0265347B5001C1EAE /* BabinikuiOSApp.swift */; };
+		408159F3265347B5001C1EAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408159F2265347B5001C1EAE /* ContentView.swift */; };
+		408159F5265347B7001C1EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408159F4265347B7001C1EAE /* Assets.xcassets */; };
+		408159F8265347B7001C1EAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408159F7265347B7001C1EAE /* Preview Assets.xcassets */; };
+		40815A03265347B8001C1EAE /* BabinikuiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40815A02265347B8001C1EAE /* BabinikuiOSTests.swift */; };
+		40815A0E265347B8001C1EAE /* BabinikuiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40815A0D265347B8001C1EAE /* BabinikuiOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		408159FF265347B7001C1EAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 408159E5265347B5001C1EAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408159EC265347B5001C1EAE;
+			remoteInfo = BabinikuiOS;
+		};
+		40815A0A265347B8001C1EAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 408159E5265347B5001C1EAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408159EC265347B5001C1EAE;
+			remoteInfo = BabinikuiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		408159ED265347B5001C1EAE /* BabinikuiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabinikuiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		408159F0265347B5001C1EAE /* BabinikuiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabinikuiOSApp.swift; sourceTree = "<group>"; };
+		408159F2265347B5001C1EAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		408159F4265347B7001C1EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		408159F7265347B7001C1EAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		408159F9265347B7001C1EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408159FE265347B7001C1EAE /* BabinikuiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabinikuiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40815A02265347B8001C1EAE /* BabinikuiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabinikuiOSTests.swift; sourceTree = "<group>"; };
+		40815A04265347B8001C1EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40815A09265347B8001C1EAE /* BabinikuiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabinikuiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40815A0D265347B8001C1EAE /* BabinikuiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabinikuiOSUITests.swift; sourceTree = "<group>"; };
+		40815A0F265347B8001C1EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		408159EA265347B5001C1EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408159FB265347B7001C1EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40815A06265347B8001C1EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		408159E4265347B5001C1EAE = {
+			isa = PBXGroup;
+			children = (
+				408159EF265347B5001C1EAE /* BabinikuiOS */,
+				40815A01265347B8001C1EAE /* BabinikuiOSTests */,
+				40815A0C265347B8001C1EAE /* BabinikuiOSUITests */,
+				408159EE265347B5001C1EAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		408159EE265347B5001C1EAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				408159ED265347B5001C1EAE /* BabinikuiOS.app */,
+				408159FE265347B7001C1EAE /* BabinikuiOSTests.xctest */,
+				40815A09265347B8001C1EAE /* BabinikuiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		408159EF265347B5001C1EAE /* BabinikuiOS */ = {
+			isa = PBXGroup;
+			children = (
+				408159F0265347B5001C1EAE /* BabinikuiOSApp.swift */,
+				408159F2265347B5001C1EAE /* ContentView.swift */,
+				408159F4265347B7001C1EAE /* Assets.xcassets */,
+				408159F9265347B7001C1EAE /* Info.plist */,
+				408159F6265347B7001C1EAE /* Preview Content */,
+			);
+			path = BabinikuiOS;
+			sourceTree = "<group>";
+		};
+		408159F6265347B7001C1EAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				408159F7265347B7001C1EAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40815A01265347B8001C1EAE /* BabinikuiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				40815A02265347B8001C1EAE /* BabinikuiOSTests.swift */,
+				40815A04265347B8001C1EAE /* Info.plist */,
+			);
+			path = BabinikuiOSTests;
+			sourceTree = "<group>";
+		};
+		40815A0C265347B8001C1EAE /* BabinikuiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40815A0D265347B8001C1EAE /* BabinikuiOSUITests.swift */,
+				40815A0F265347B8001C1EAE /* Info.plist */,
+			);
+			path = BabinikuiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		408159EC265347B5001C1EAE /* BabinikuiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40815A12265347B8001C1EAE /* Build configuration list for PBXNativeTarget "BabinikuiOS" */;
+			buildPhases = (
+				408159E9265347B5001C1EAE /* Sources */,
+				408159EA265347B5001C1EAE /* Frameworks */,
+				408159EB265347B5001C1EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabinikuiOS;
+			productName = BabinikuiOS;
+			productReference = 408159ED265347B5001C1EAE /* BabinikuiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		408159FD265347B7001C1EAE /* BabinikuiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40815A15265347B8001C1EAE /* Build configuration list for PBXNativeTarget "BabinikuiOSTests" */;
+			buildPhases = (
+				408159FA265347B7001C1EAE /* Sources */,
+				408159FB265347B7001C1EAE /* Frameworks */,
+				408159FC265347B7001C1EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40815A00265347B7001C1EAE /* PBXTargetDependency */,
+			);
+			name = BabinikuiOSTests;
+			productName = BabinikuiOSTests;
+			productReference = 408159FE265347B7001C1EAE /* BabinikuiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40815A08265347B8001C1EAE /* BabinikuiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40815A18265347B8001C1EAE /* Build configuration list for PBXNativeTarget "BabinikuiOSUITests" */;
+			buildPhases = (
+				40815A05265347B8001C1EAE /* Sources */,
+				40815A06265347B8001C1EAE /* Frameworks */,
+				40815A07265347B8001C1EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40815A0B265347B8001C1EAE /* PBXTargetDependency */,
+			);
+			name = BabinikuiOSUITests;
+			productName = BabinikuiOSUITests;
+			productReference = 40815A09265347B8001C1EAE /* BabinikuiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		408159E5265347B5001C1EAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					408159EC265347B5001C1EAE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					408159FD265347B7001C1EAE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 408159EC265347B5001C1EAE;
+					};
+					40815A08265347B8001C1EAE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 408159EC265347B5001C1EAE;
+					};
+				};
+			};
+			buildConfigurationList = 408159E8265347B5001C1EAE /* Build configuration list for PBXProject "BabinikuiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 408159E4265347B5001C1EAE;
+			productRefGroup = 408159EE265347B5001C1EAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				408159EC265347B5001C1EAE /* BabinikuiOS */,
+				408159FD265347B7001C1EAE /* BabinikuiOSTests */,
+				40815A08265347B8001C1EAE /* BabinikuiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		408159EB265347B5001C1EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408159F8265347B7001C1EAE /* Preview Assets.xcassets in Resources */,
+				408159F5265347B7001C1EAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408159FC265347B7001C1EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40815A07265347B8001C1EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		408159E9265347B5001C1EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408159F3265347B5001C1EAE /* ContentView.swift in Sources */,
+				408159F1265347B5001C1EAE /* BabinikuiOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408159FA265347B7001C1EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40815A03265347B8001C1EAE /* BabinikuiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40815A05265347B8001C1EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40815A0E265347B8001C1EAE /* BabinikuiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40815A00265347B7001C1EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408159EC265347B5001C1EAE /* BabinikuiOS */;
+			targetProxy = 408159FF265347B7001C1EAE /* PBXContainerItemProxy */;
+		};
+		40815A0B265347B8001C1EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408159EC265347B5001C1EAE /* BabinikuiOS */;
+			targetProxy = 40815A0A265347B8001C1EAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40815A10265347B8001C1EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40815A11265347B8001C1EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40815A13265347B8001C1EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BabinikuiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = B4NYL4Y26B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BabinikuiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.babiniku.BabinikuiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40815A14265347B8001C1EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BabinikuiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = B4NYL4Y26B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BabinikuiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.babiniku.BabinikuiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40815A16265347B8001C1EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4NYL4Y26B;
+				INFOPLIST_FILE = BabinikuiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.babiniku.BabinikuiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabinikuiOS.app/BabinikuiOS";
+			};
+			name = Debug;
+		};
+		40815A17265347B8001C1EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4NYL4Y26B;
+				INFOPLIST_FILE = BabinikuiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.babiniku.BabinikuiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabinikuiOS.app/BabinikuiOS";
+			};
+			name = Release;
+		};
+		40815A19265347B8001C1EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4NYL4Y26B;
+				INFOPLIST_FILE = BabinikuiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.babiniku.BabinikuiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabinikuiOS;
+			};
+			name = Debug;
+		};
+		40815A1A265347B8001C1EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4NYL4Y26B;
+				INFOPLIST_FILE = BabinikuiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.takanakahiko.babiniku.BabinikuiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabinikuiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		408159E8265347B5001C1EAE /* Build configuration list for PBXProject "BabinikuiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40815A10265347B8001C1EAE /* Debug */,
+				40815A11265347B8001C1EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40815A12265347B8001C1EAE /* Build configuration list for PBXNativeTarget "BabinikuiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40815A13265347B8001C1EAE /* Debug */,
+				40815A14265347B8001C1EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40815A15265347B8001C1EAE /* Build configuration list for PBXNativeTarget "BabinikuiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40815A16265347B8001C1EAE /* Debug */,
+				40815A17265347B8001C1EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40815A18265347B8001C1EAE /* Build configuration list for PBXNativeTarget "BabinikuiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40815A19265347B8001C1EAE /* Debug */,
+				40815A1A265347B8001C1EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 408159E5265347B5001C1EAE /* Project object */;
+}
