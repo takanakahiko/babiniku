@@ -2,7 +2,7 @@
 //  BabinikuiOSTests.swift
 //  BabinikuiOSTests
 //
-//  Created by Takayuki Nakayama on 2021/05/18.
+//  Created by takanakahiko on 2021/05/18.
 //
 
 import XCTest
