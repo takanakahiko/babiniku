@@ -14,6 +14,7 @@
 		40815A03265347B8001C1EAE /* BabinikuiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40815A02265347B8001C1EAE /* BabinikuiOSTests.swift */; };
 		40815A0E265347B8001C1EAE /* BabinikuiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40815A0D265347B8001C1EAE /* BabinikuiOSUITests.swift */; };
 		40A45D35265C50A500B6A189 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A45D34265C50A500B6A189 /* Models.scnassets */; };
+		40A45D37265EB3A900B6A189 /* UDPSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A45D36265EB3A900B6A189 /* UDPSender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		40815A0D265347B8001C1EAE /* BabinikuiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabinikuiOSUITests.swift; sourceTree = "<group>"; };
 		40815A0F265347B8001C1EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40A45D34265C50A500B6A189 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+		40A45D36265EB3A900B6A189 /* UDPSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPSender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				408159F0265347B5001C1EAE /* BabinikuiOSApp.swift */,
 				408159F2265347B5001C1EAE /* ContentView.swift */,
+				40A45D36265EB3A900B6A189 /* UDPSender.swift */,
 				408159F4265347B7001C1EAE /* Assets.xcassets */,
 				40A45D34265C50A500B6A189 /* Models.scnassets */,
 				408159F9265347B7001C1EAE /* Info.plist */,
@@ -265,6 +268,7 @@
 			files = (
 				408159F3265347B5001C1EAE /* ContentView.swift in Sources */,
 				408159F1265347B5001C1EAE /* BabinikuiOSApp.swift in Sources */,
+				40A45D37265EB3A900B6A189 /* UDPSender.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

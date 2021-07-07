@@ -16,11 +16,17 @@ struct ContentView: View {
 
 struct ARSCNViewContainer: UIViewRepresentable {
     
+    let udpSender = UDPSender(address: "192.168.3.5", portNum: 41234)
+    
     func makeCoordinator() -> Coordinator {
-        Coordinator()
+        Coordinator(parent: self)
     }
     
     class Coordinator: NSObject, ARSCNViewDelegate {
+        var parent: ARSCNViewContainer
+        init (parent: ARSCNViewContainer) {
+            self.parent = parent
+        }
         func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
             guard anchor is ARFaceAnchor else { return }
             print("add")
@@ -35,8 +41,19 @@ struct ARSCNViewContainer: UIViewRepresentable {
         }
         func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
             guard anchor is ARFaceAnchor else { return }
-            print("update" + UUID().uuidString)
-            
+            print("update : " + UUID().uuidString)
+            let cs = anchor.transform.columns
+            let message = """
+            {
+                "matrix" : [
+                    [\(cs.0.x),\(cs.1.x),\(cs.2.x),\(cs.3.x)],
+                    [\(cs.0.y),\(cs.1.y),\(cs.2.y),\(cs.3.y)],
+                    [\(cs.0.z),\(cs.1.z),\(cs.2.z),\(cs.3.z)],
+                    [\(cs.0.w),\(cs.1.w),\(cs.2.w),\(cs.3.w)]
+                ]
+            }
+            """
+            parent.udpSender.send(message: message)
         }
         func renderer(_ renderer: SCNSceneRenderer, didRemove node: SCNNode, for anchor: ARAnchor) {
             print("remove")
